@@ -1,0 +1,23 @@
+.header-basic-light .header-limiter nav ul {
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.header-basic-light .header-limiter nav ul li {
+    display: inline-block;
+    color: black;
+}
+
+.header-basic-light .header-limiter nav ul li .dropdown a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.header-basic-light .header-limiter nav ul li .dropdown:hover {
+    display:block;
+}

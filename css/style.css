@@ -1,0 +1,227 @@
+
+body {
+    position: relative;
+}
+
+.carousel-item {
+    height: 100vh;
+
+    align-content: center;
+
+}
+
+
+.solutionTitle{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.carousel-item h1 {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    margin:auto;
+    padding: 10px;
+
+}
+.carousel-item a{
+    margin:auto;
+}
+
+.carousel-item:nth-child(1){
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/AdobeStock_182056831.jpeg") center;
+    background-size: cover;
+}
+.carousel-item:nth-child(2){
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/demo-construct-decontamination-slider.jpg") center;
+    background-size: cover;
+}
+.carousel-item:nth-child(3){
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/AdobeStock_42607004.jpeg") center;
+
+    background-size: cover;
+
+}
+.carousel-item:nth-child(4){
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("../images/AdobeStock_54481137.jpeg") center;
+
+    background-size: cover;
+
+}
+
+.carousel-item:nth-child(5){
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/AdobeStock_171231956.jpeg") center;
+    background-size: cover;
+
+
+
+}
+
+
+
+.btn-xlg{
+   font-size: 3rem !important;
+}
+
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+.background1{
+    padding: 1rem;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/AdobeStock_103168961_Preview.jpeg")  no-repeat fixed center center; ;
+    background-size: cover;
+
+}
+.border-secondary{
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 100, 0, 0.4);
+}
+.financement{
+    color: #999;
+    border-left: 2px solid #999;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+}
+.inner-col-footer {
+    padding: 10px;
+}
+
+.container {
+    padding-top: 10px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #D0D0D0;
+}
+
+.container a:hover {
+    color: #0b2e13;
+}
+
+.footer {
+    font-family: 'Catamaran', sans-serif;
+    color: #808080;
+    background-color: #212121;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #D0D0D0;
+}
+
+.footer a:hover {
+    color: #175F07;
+}
+
+.footer .footer-foot {
+    font-size: 12px;
+    color: #606060;
+}
+
+.footer .footer-foot a {
+    text-decoration: none;
+}
+
+.footer .footer-foot a:hover {
+    color: #175F07;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #175F07;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #175F07;
+}
+
+.header-allpages {
+    padding-top: 10px;
+    background-color: #C1E1A6;
+    border-top: 2px solid #175F07;
+}
+
+@media all and (max-width: 991px) {
+    .logo-header-nav {
+        display: none;
+    }
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
+
+@media (max-width: 544px) {
+    h1 {font-size:2.5rem;} /*1rem = 16px*/
+    .solutionTitle{
+        font-size: 3rem;
+    }
+    .btn-xlg{
+        font-size: 1rem !important;
+    }
+
+
+}
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+    h1 {font-size:2.5rem;} /*1rem = 16px*/
+    .solutionTitle{
+        font-size: 3rem;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    .solutionTitle{
+
+        font-size: 4rem;
+    }
+    h1 {font-size:3rem;} /*1rem = 16px*/
+
+}
+@media (max-width: 768px) {
+
+    .img-none{
+        display: none;
+    }
+
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .solutionTitle{
+        font-size: 5rem;
+    }
+
+    h1 {font-size:3.5rem;} /*1rem = 16px*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .solutionTitle{
+
+        font-size: 6rem;
+    }
+    h1 {font-size:4rem;} /*1rem = 16px*/
+}

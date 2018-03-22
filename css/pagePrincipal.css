@@ -1,0 +1,110 @@
+.cover-container {
+    position: relative;
+    background: url("../decontamination_cover.jpg") no-repeat center ;
+    background-size: cover;
+    height:50vh;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+}
+
+.cover-text-container {
+    color: white;
+    text-align:center;
+    margin:auto auto;
+    position: relative;
+    background-color: rgba(0,0,0,0.5);
+    height: 150px;
+    max-height: 70%;
+    width:100%;
+    max-width:1220px;
+    padding: 1vw;
+    box-sizing: border-box;
+
+}
+
+.textPart {
+    color: black;
+    text-align: justify;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1220px;
+    padding: 1vw;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textLeftPart {
+    max-width: 575px;
+    padding:5px;
+}
+
+.textRightPart {
+    text-align:left;
+    float: right;
+    max-width: 575px;
+    padding:5px;
+
+}
+
+.contact-table {
+    max-width:610px;
+
+    border-spacing: 0;
+}
+
+.contact-table td{
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.text-regions {
+    color: black;
+    text-align: justify;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 1vw;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.regions-photo {
+    background-size: cover;
+    background: url("../montreal_cover.jpg") no-repeat fixed center center;
+    height: 600px;
+    width:100%;
+    box-sizing: border-box
+}
+
+.regions-photo h2 {
+    color:white;
+    text-align: center;
+    text-weight: bold;
+    text-decoration: underline;
+}
+
+.regions-photo p {
+    color: white;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.regions-photo img{
+    height:20px;
+    witdh:20px;
+}
+
+@media (max-width: 1220px) {
+    .textPart {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+
+}

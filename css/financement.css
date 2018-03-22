@@ -1,0 +1,80 @@
+.financement{
+    max-width: 1220px;
+    padding:2.5%;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 100, 0, 0.4);
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+
+}
+
+.column-text {
+    flex : 1 0 100%;
+}
+
+.column-titre{
+    flex : 1 1 75%;
+}
+
+
+.column-bouton .button{
+    flex : 1 0 300px;
+    height : 20px;
+    background-color: #175F07;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 15px 32px;
+}
+
+.column-titre h1{
+    margin-right:10%;
+    color: darkslategrey;
+}
+.column p{
+    font-size: 1.2em;
+    margin: 1em 3em;
+    color: #999;
+    border-left: 2px solid #999;
+    padding-left: 1em;
+}
+
+.column-bouton .button:hover{
+    text-decoration: underline;
+
+}
+
+@media (max-width: 1220px) {
+    .textPart {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+    .column-titre{
+        flex : 1 0 100%;
+    }
+    .column-titre h1{
+        text-align: center;
+    }
+    .column-bouton .button{
+        flex : 1 0 100%;
+        width :400px;
+        height : 20px;
+        font-size: 10px;
+        vertical-align: middle;
+        padding: 15px 32px;
+    }
+
+
+}

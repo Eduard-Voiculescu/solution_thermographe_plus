@@ -1,0 +1,319 @@
+.cover-container {
+    position: relative;
+    background: url("../decontamination_cover.jpg") no-repeat center ;
+    background-size: cover;
+    height:50vh;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.cover-text-container {
+    color: white;
+    text-align:center;
+    margin:auto auto;
+    position: relative;
+    top: 100px;
+    background-color: rgba(0,0,0,0.5);
+    height: 150px;
+    max-height: 70%;
+    width:100%;
+    max-width:1220px;
+    padding: 1vw;
+    box-sizing: border-box;
+
+}
+
+.toiture-text {
+    color: black;
+    text-align: justify;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1220px;
+    padding: 1vw;
+    overflow: auto;
+}
+
+.toiture-gauche {
+
+    float: left;
+    max-width: 550px;
+    display: inline-block;
+}
+
+.toiture-droite {
+    text-align:left;
+    float: right;
+    max-width: 550px;
+    display: inline-block;
+}
+
+.toiture-contact-table {
+    max-width:1220px;
+    max-height: 550px;
+    margin:0 auto;
+    height:100%;
+    width:100%;
+    border-spacing: 0;
+}
+
+.toiture-contact-table td{
+    text-align: left;
+    width:50%;
+    color: black;
+    padding: 10px 20px;
+}
+
+.toiture-main-content {
+    overflow:auto;
+    text-align: justify;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1220px;
+    padding: 1vw;
+}
+
+.toiture-droite-main {
+    color: black;
+}
+
+.toiture-droite-main:hover {
+    color:#720000;
+}
+
+.toiture-check {
+    height: 15px;
+    width: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.toiture-droite p {
+    font-size: 18px;
+}
+
+
+.toiture-text-regions {
+    color: black;
+    text-align: justify;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 1vw;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.toiture-regions-photo {
+    background-size: cover;
+    background: url("../montreal_cover.jpg") no-repeat fixed center center;
+    height: 600px;
+    width:100%;
+    box-sizing: border-box
+}
+
+.toiture-regions-photo h2 {
+    color:white;
+    text-align: center;
+    text-weight: bold;
+    text-decoration: underline;
+}
+
+.toiture-regions-photo p {
+    color: white;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.toiture-regions-photo img{
+    height:20px;
+    witdh:20px;
+}
+
+
+.mySlides {
+    display:none;
+}
+
+/* Slideshow container */
+.toiture-slideshow-container {
+    width: 500px;
+    height: 350px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.toiture-prev, .toiture-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.toiture-next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.toiture-prev:hover, .toiture-next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.toiture-dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .toiture-prev, .toiture-next,.text {font-size: 11px}
+}
+
+/* Couvreur de toiture */
+
+.toiture-text-entretoit {
+    color: black;
+    text-align: justify;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1220px;
+    padding: 1vw;
+    overflow: auto;
+}
+
+.toiture-gauche-entretoit {
+    float: left;
+    max-width: 550px;
+    display: inline-block;
+}
+
+.toiture-droite-entretoit {
+    padding-top:20px;
+    text-align:left;
+    float: right;
+    max-width: 550px;
+    display: inline-block;
+}
+
+.toiture-box {
+    padding: 5px 5px 5px 10px;
+    border: 2px solid;
+}
+
+/* Réfection de toiture */
+
+.toiture-text-refection {
+    color: black;
+    text-align: justify;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1220px;
+    padding: 1vw;
+    overflow: auto;
+}
+
+.toiture-gauche-refection {
+    float: left;
+    max-width: 550px;
+    display: inline-block;
+}
+
+.toiture-droite-refection {
+    padding-top:20px;
+    text-align:left;
+    float: right;
+    max-width: 550px;
+    display: inline-block;
+}
+
+
+@media only screen and (max-width : 640px) {
+
+    header {
+
+        position: absolute;
+
+    }
+
+    #menu-icon {
+
+        display:inline-block;
+
+    }
+
+    nav ul, nav:active ul {
+
+        display: none;
+        position: absolute;
+        padding: 20px;
+        background: #fff;
+        border: 5px solid #444;
+        right: 20px;
+        top: 60px;
+        width: 50%;
+        border-radius: 4px 0 4px 4px;
+
+    }
+
+    nav li {
+
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+
+    }
+
+    nav:hover ul {
+
+        display: block;
+
+    }
+}
