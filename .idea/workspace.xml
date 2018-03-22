@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cac2aa93-1941-4747-b3cb-f159bc052bdc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/isolation/isolation_entretoit.html" afterPath="$PROJECT_DIR$/isolation/isolation_entretoit.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -78,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="isolation_entretoit.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="isolation_entretoit.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/isolation/isolation_entretoit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="385" column="48" lean-forward="false" selection-start-line="385" selection-start-column="48" selection-end-line="385" selection-end-column="48" />
+            <state relative-caret-position="597">
+              <caret line="382" column="16" lean-forward="false" selection-start-line="382" selection-start-column="16" selection-end-line="382" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -155,12 +156,12 @@
         <option value="$PROJECT_DIR$/thermographie.html" />
         <option value="$PROJECT_DIR$/decontamination/decontamination_moisissures.html" />
         <option value="$PROJECT_DIR$/decontamination/decontamination_vermiculite.html" />
-        <option value="$PROJECT_DIR$/isolation/isolation_entretoit.html" />
         <option value="$PROJECT_DIR$/isolation/types_isolation.html" />
         <option value="$PROJECT_DIR$/isolation/isolation_professionnel.html" />
         <option value="$PROJECT_DIR$/isolation/probleme_humidite.html" />
         <option value="$PROJECT_DIR$/chauffageetclimatisation/chauffageetclimatisation_therm_murales.html" />
         <option value="$PROJECT_DIR$/chauffageetclimatisation/chauffageetclimatisation_therm_centrales.html" />
+        <option value="$PROJECT_DIR$/isolation/isolation_entretoit.html" />
       </list>
     </option>
   </component>
@@ -171,8 +172,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="629" />
-    <option name="width" value="1298" />
+    <option name="x" value="143" />
+    <option name="width" value="1784" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -300,15 +301,16 @@
       <workItem from="1521467478620" duration="17000" />
       <workItem from="1521467749605" duration="15814000" />
       <workItem from="1521519619337" duration="33739000" />
-      <workItem from="1521753571561" duration="3250000" />
+      <workItem from="1521753571561" duration="3611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52839000" />
+    <option name="totallyTimeSpent" value="53200000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="629" y="0" width="1298" height="1047" extended-state="0" />
+    <frame x="143" y="0" width="1784" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -322,7 +324,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19890796" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14423077" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -614,14 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/isolation/isolation_entretoit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="385" column="48" lean-forward="false" selection-start-line="385" selection-start-column="48" selection-end-line="385" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/isolation/types_isolation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
@@ -684,6 +678,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isolation/isolation_entretoit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="382" column="16" lean-forward="false" selection-start-line="382" selection-start-column="16" selection-end-line="382" selection-end-column="16" />
           <folding />
         </state>
       </provider>
