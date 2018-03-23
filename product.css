@@ -11,6 +11,10 @@
     background-size:cover;
 }
 
+#headerTestHumidité {
+    background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url("images/AdobeStock_171231956.jpeg") fixed;
+    background-size:cover;
+}
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
