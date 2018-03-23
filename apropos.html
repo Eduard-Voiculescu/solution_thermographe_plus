@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <!-- Required meta tags -->
@@ -15,11 +15,16 @@
     <!-- Costum CSS-->
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="product.css">
     <link href = "images/SmallLogo-150dpi.svg" rel="icon" type="image/gif">
-    <title>À propos</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <title>Page d'accueuil</title>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light " >
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top "id="navbar"  >
 
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,9 +32,8 @@
                 <img src="images/SmallLogo-150dpi.svg" height="30" width="30">
             </span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav justify-content-center">
 
             <!-- Solution thermographe plus-->
             <li class="nav-item">
@@ -103,14 +107,15 @@
             </li>
 
             <!-- À propos -->
-            <li class="nav-item active">
-                <a class="nav-link" href="apropos.html">
+            <li class="nav-itemn">
+                <a class="nav-link " href="apropos.html" >
                     À propos
                 </a>
+
             </li>
 
             <!-- Contact -->
-            <li class="nav-item ">
+            <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
             </li>
 
@@ -118,6 +123,128 @@
     </div>
 
 </nav>
+
+<div class="position-relative overflow-hidden text-center bg-light" style="background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url('images/AdobeStock_31593050.jpeg') fixed;
+background-size:cover;">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-3 font-weight-normal">Solution <span style="color: green">Thermographe </span>Plus</h1>
+        <br>
+        <p class="lead font-weight-normal" style="font-size: 2rem;" >À propos</p>
+        <br>
+
+    </div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+            <h2 class="display-4">Perte d'énergie?</h2>
+
+        </div>
+        <p class="responsive-fontsizeP">
+            Les combles et la toiture sont les principales sources de déperditions thermiques d’une habitation.
+            Bien isoler ou rénover l’isolation de ses combles avec une barrière isolante efficace et durable est
+            prioritaire pour bénéficier d’un logement confortable et pour réaliser des économies d’énergie. L’isolation
+            doit être la priorité dans vos travaux de rénovation énergétique.
+        </p>
+
+    </div>
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center justify-content-center">
+        <div>
+
+            <img src="images/AdobeStock_60533681_Preview.jpeg" alt="iso" class="img-fluid">
+        </div>
+
+    </div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center justify-content-center">
+        <div class="my-3 py-3">
+            <h2 class="display-4">Pourquoi l'isolation des combles?</h2>
+
+        </div>
+
+        <p class="responsive-fontsizeP">
+            Une toiture ou des combles mal isolés peuvent être responsables jusqu'à 38% des pertes de chaleur dans
+            l’habitat en saison froide (source SCHL), en été c’est également la partie du logement la plus exposée
+            au soleil. Des études ont démontré que les pièces adjacentes à un entre toit mal isolé (ex. 20cm de laine
+            minérale au lieu des 53cm recommandés) et insuffisamment ventilé peuvent contribuer à augmenter la chaleur
+            jusqu'à 6 degrés Celsius de plus durant la saison chaude.<br><br>
+            Une autre conséquence importante d'un entre toit dit dysfonctionnel est l'usure prématurée des bardeaux de
+            toiture. Peu importe la qualité des matériaux, l'usure sera grandement accélérée dans un environnement qui
+            augmente le stress sur ses composantes. Vous pourriez être tentés d'opter pour une toiture de type
+            métallique pour éviter cette détérioration mais attention! Ce revêtement augmentera la chaleur de l'entre
+            toit jusqu'au double ce qui pourrait provoquer beaucoup de dégâts si ce dernier n'est pas conforme aux normes.
+
+        </p>
+
+    </div>
+
+    <div class="bg-dark mr-md-3 pb-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden align-content-center">
+        <div style="margin:auto;">
+            <img src="images/isolation_image.jpg" alt="iso" class="img-fluid"/>
+        </div>
+    </div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+            <h2 class="display-5">Another headline</h2>
+            <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+    </div>
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+            <h2 class="display-5">Another headline</h2>
+            <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+    </div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+            <h2 class="display-5">Another headline</h2>
+            <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+    </div>
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+            <h2 class="display-5">Another headline</h2>
+            <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+    </div>
+</div>
+<br><br>
+<div class="container-fluid ">
+    <div class="container w-75 p-4 border border-secondary">
+        <div class="row justify-content-md-center">
+            <div class="col col-md text-center ">
+                <h1 style="color: darkgreen">Financement disponible! </h1>
+                <br>
+                <a href="#">
+                    <button type="button" class="btn btn-md btn-success">Demande d'information</button>
+                </a>
+                <br><br>
+                <p class="financement">
+                    Comme la rénovation, l'isolation, la décontamination sont des projets rarement prévu au budget,
+                    nous mettons à votre disposition des solutions de financement abordable pour vos projets.
+                    Appelez-nous au <span style="color:darkgreen; ">1-844-206-2884</span> ou contactez-nous en appuyant sur le bouton
+                    de contact pour en savoir plus sur nos plans de financement.
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<br><br>
 
 <footer class="footer">
 
@@ -209,5 +336,22 @@
     </div>
 
 </footer>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="../../../../assets/js/vendor/popper.min.js"></script>
+<script src="../../../../dist/js/bootstrap.min.js"></script>
+<script src="../../../../assets/js/vendor/holder.min.js"></script>
+<script>
+    Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+    });
+</script>
 </body>
 </html>
