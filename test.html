@@ -1,46 +1,136 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Costum CSS-->
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="product.css">
+    <link href = "images/SmallLogo-150dpi.svg" rel="icon" type="image/gif">
 
-    <title>Product example for Bootstrap</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="product.css" rel="stylesheet">
+    <title>Page d'accueuil</title>
 </head>
 
 <body>
 
-<nav class="site-header sticky-top py-1">
-    <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
-        </a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top "id="navbar"  >
+
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <img src="images/SmallLogo-150dpi.svg" height="30" width="30">
+            </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav justify-content-center">
+
+            <!-- Solution thermographe plus-->
+            <li class="nav-item">
+                <a class="logo-header-nav" href="index.html"><img src="images/SmallLogo-150dpi.svg" height="40" width="40"></a>
+            </li>
+            <li class="nav-item active">
+                <a href="index.html" class="nav-link">Solution Thermographe Plus</a>
+            </li>
+
+            <!-- Thermographie -->
+            <li class="nav-item">
+                <a class="nav-link" href="thermographie/thermographie.html">Thermographie<span class="sr-only">(current)</span></a>
+            </li>
+
+            <!-- Décontamination -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle nav-link-hover" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Decontamination
+                </a>
+
+                <!-- décontamination entretoit, vermiculite et moisissures -->
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                    <a class="dropdown-item" href="decontamination/decontamination_vermiculite.html">Decontamination vermiculite</a>
+                    <a class="dropdown-item" href="decontamination/decontamination_moisissures.html">Decontamination de moisissures</a>
+                </div>
+            </li>
+
+            <!-- Isolation -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Isolation
+                </a>
+
+                <!-- isolation d'entretoit, des murs et sous-sol-->
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <a class="dropdown-item " href="isolation/isolation_entretoit.html">Isolation d'entretoit</a>
+                    <a class="dropdown-item" href="isolation/types_isolation.html">Types d'isolation</a>
+                    <a class="dropdown-item" href="isolation/isolation_professionnel.html">Isolation professionnelle</a>
+                </div>
+            </li>
+
+            <!-- Humidité-->
+            <li class="nav-item">
+                <a class="nav-link" href="isolation/probleme_humidite.html">Humidité</a>
+            </li>
+
+            <!-- Toiture -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Toiture
+                </a>
+
+                <!-- toiture couvreur et refection-->
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                    <a class="dropdown-item" href="toiture/toiture_couvreur.html">Toiture couvreur</a>
+                    <a class="dropdown-item" href="toiture/toiture_refection.html">Toiture refection</a>
+                </div>
+            </li>
+
+            <!-- Chauffage & Climatisation -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Chauffage & Climatisation
+                </a>
+
+                <!-- chauffage & climatisation murales et centrales-->
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                    <a class="dropdown-item" href="chauffageetclimatisation/chauffageetclimatisation_therm_murales.html">Thermopompes murales</a>
+                    <a class="dropdown-item" href="chauffageetclimatisation/chauffageetclimatisation_therm_centrales.html">Thermopompes centrales</a>
+                </div>
+            </li>
+
+            <!-- À propos -->
+            <li class="nav-itemn">
+                <a class="nav-link " href="apropos.html" >
+                    À propos
+                </a>
+
+            </li>
+
+            <!-- Contact -->
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+
+        </ul>
     </div>
+
 </nav>
 
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+<div class="position-relative overflow-hidden text-center bg-light" id="headerTest">
     <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">Punny headline</h1>
-        <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
-        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+        <h1 class="display-3 font-weight-normal">Isolation</h1>
+        <br>
+        <p class="lead font-weight-normal" style="font-size: 2rem;" >Grand Montréal et ses alentours</p>
+        <br>
+        <a class="btn btn-outline-dark btn-lg" style="font-size: 2rem;" href="">Contactez-nous</a>
     </div>
-    <div class="product-device box-shadow d-none d-md-block"></div>
-    <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
 </div>
 
 <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
