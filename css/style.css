@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans|Ubuntu|Ubuntu+Condensed');
 body {
     position: relative;
     background: url("../images/testbackground.jpg") no-repeat fixed center center;
     background-size: cover;
+    font-family: 'Ubuntu Condensed', sans-serif!important;
 }
 
 .navbar{
@@ -271,6 +272,6 @@ body {
     }
     h1 {font-size:4rem!important;} /*1rem = 16px*/
     .responsive-fontsizeCard{
-        font-size: 3rem!important;
+        font-size: 2.9rem!important;
     }
 }
