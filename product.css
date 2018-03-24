@@ -49,6 +49,16 @@
     background-size:cover;
 }
 
+#headerChauffageetClimatisation {
+    background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url("images/murale4.jpg") fixed;
+    background-size:cover;
+}
+
+#headerIsolationProfessionnelle {
+    background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url("images/murale4.jpg") fixed;
+    background-size:cover;
+}
+
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
