@@ -1,8 +1,13 @@
 
 body {
     position: relative;
+    background: url("../images/testbackground.jpg") no-repeat fixed center center;
+    background-size: cover;
 }
 
+.navbar{
+    font-size: 1.4rem!important;
+}
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
@@ -163,6 +168,7 @@ body {
     background-color: #C1E1A6;
     border-top: 2px solid #175F07;
 }
+.font
 
 @media all and (max-width: 991px) {
     .logo-header-nav {
@@ -258,7 +264,10 @@ body {
         font-size: 6rem;
     }
     .responsive-fontsizeP{
-        font-size: 1.7rem!important;
+        font-size: 1.3rem!important;
+    }
+    .boxTemplate{
+        max-width: 1200px;
     }
     h1 {font-size:4rem!important;} /*1rem = 16px*/
     .responsive-fontsizeCard{
