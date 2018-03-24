@@ -3,6 +3,17 @@ body {
     position: relative;
 }
 
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-64 {font-size: 6rem;}
+.green{
+    color:green;
+}
+.red{
+    color: red;
+}
 .carousel-item {
     height: 100vh;
 
@@ -177,6 +188,9 @@ body {
     .btn-xlg{
         font-size: 1rem !important;
     }
+    .responsive-fontsizeCard{
+        font-size: 1.5rem!important;
+    }
 
 
 }
@@ -185,6 +199,9 @@ body {
     h1 {font-size:2.5rem;} /*1rem = 16px*/
     .solutionTitle{
         font-size: 3rem;
+    }
+    .responsive-fontsizeCard{
+        font-size: 1.5rem!important;
     }
 
 }
@@ -196,6 +213,9 @@ body {
         font-size: 4rem;
     }
     h1 {font-size:3rem;} /*1rem = 16px*/
+    .responsive-fontsizeCard{
+        font-size: 1.5rem!important;
+    }
 
 }
 @media (max-width: 768px) {
@@ -215,6 +235,20 @@ body {
     }
 
     h1 {font-size:3.5rem;} /*1rem = 16px*/
+    .responsive-fontsizeCard{
+        font-size: 2rem!important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .solutionTitle{
+
+        font-size: 5rem;
+    }
+    h1 {font-size:3.5rem!important;} /*1rem = 16px*/
+    .responsive-fontsizeCard{
+        font-size: 2.5rem!important;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -227,4 +261,7 @@ body {
         font-size: 1.7rem!important;
     }
     h1 {font-size:4rem!important;} /*1rem = 16px*/
+    .responsive-fontsizeCard{
+        font-size: 3rem!important;
+    }
 }
