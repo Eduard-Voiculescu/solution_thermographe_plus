@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/chauffageetclimatisation.css">-->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../product.css">
+
     <link href="../images/logostp.jpg" rel="icon" type="image/gif">
     <title>Chauffage et climatisation</title>
 </head>
@@ -109,18 +111,8 @@
             </li>
 
             <!-- Chauffage & Climatisation -->
-            <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    Chauffage & Climatisation
-                </a>
-
-                <!-- chauffage & climatisation murales et centrales-->
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
-                    <a class="dropdown-item" href="chauffageetclimatisation_therm_murales.html">Thermopompes murales</a>
-                    <a class="dropdown-item" href="chauffageetclimatisation_therm_centrales.html">Thermopompes
-                        centrales</a>
-                </div>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Chauffage & Climatisation</a>
             </li>
 
             <!-- A propos -->
@@ -299,129 +291,6 @@
 </div>
 
 
-<div style="background-color: #DCDCDC;">
-    <div class="chauffageetclimatisation-main-content">
-
-        <div class="chauffageetclimatisation-gauche">
-
-            <br>
-
-            <div class="chauffageetclimatisation-slideshow-container">
-
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="../images/equipe-de-travail.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="../images/site-web_footer.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="../images/decontamination_cover.jpg" style="width:100%">
-                </div>
-
-                <a class="chauffageetclimatisation-prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="chauffageetclimatisation-next" onclick="plusSlides(1)">&#10095;</a>
-
-            </div>
-            <br>
-
-            <div style="text-align:center">
-                <span class="chauffageetclimatisation-dot" onclick="currentSlide(1)"></span>
-                <span class="chauffageetclimatisation-dot" onclick="currentSlide(2)"></span>
-                <span class="chauffageetclimatisation-dot" onclick="currentSlide(3)"></span>
-            </div>
-
-            <br>
-
-            <script>
-                var slideIndex = 1;
-                showSlides(slideIndex);
-
-                function plusSlides(n) {
-                    showSlides(slideIndex += n);
-                }
-
-                function currentSlide(n) {
-                    showSlides(slideIndex = n);
-                }
-
-                function showSlides(n) {
-                    var i;
-                    var slides = document.getElementsByClassName("mySlides");
-                    var dots = document.getElementsByClassName("chauffageetclimatisation-dot");
-                    if (n > slides.length) {
-                        slideIndex = 1
-                    }
-                    if (n < 1) {
-                        slideIndex = slides.length
-                    }
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                    }
-                    slides[slideIndex - 1].style.display = "block";
-                    dots[slideIndex - 1].className += " active";
-                }
-            </script>
-
-
-        </div>
-
-        <div class="chauffageetclimatisation-droite">
-
-            <h2>Chauffage et climatisation</h2>
-            <hr>
-            <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                lobortis nisl ut aliquip ex ea commodo consequat.
-            </p>
-
-            <img src="../images/check.png" class="chauffageetclimatisation-check"><a
-                href="chauffageetclimatisation_therm_centrales.html" class="chauffageetclimatisation-droite-main">Thermopompes
-            murales</a><br>
-            <img src="../images/check.png" class="chauffageetclimatisation-check"><a
-                href="chauffageetclimatisation_therm_murales.html" class="chauffageetclimatisation-droite-main">Thermopompes
-            centrales</a><br>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat
-                en appelant au : <span style="color:#720000; ">1-844-206-0727.</span>
-            </p>
-
-        </div>
-
-    </div>
-
-</div>
-
-<div class="chauffageetclimatisation-regions-photo">
-    <br><br>
-    <div class="chauffageetclimatisation-text-regions">
-
-        <div class="chauffageetclimatisation-text-regions-box">
-            <h2>Chauffage et climatisation – Régions desservies :</h2>
-
-            <p><img src="../images/location.png">&nbsp; Laval</p>
-            <p><img src="../images/location.png">&nbsp; Montréal</p>
-            <p><img src="../images/location.png">&nbsp; Longueuil</p>
-            <p><img src="../images/location.png">&nbsp; Montérégie</p>
-            <p><img src="../images/location.png">&nbsp; Laurentides</p>
-            <p><img src="../images/location.png">&nbsp; Lanaudière</p>
-
-        </div>
-    </div>
-
-</div>
 
 
 <div class="part5">
@@ -460,7 +329,7 @@
                         <h2>Solution Thermographe Plus</h2>
                         <p><b>1-800-123-1234</b></p>
                         <p>Toiture, isolation & décontamination RénoVert est une entreprise spécialisée en <a
-                                href="../isolation/isolation.html">isolation de toiture</a>, <a href="">rénovation
+                                href="../isolation/isolation_entretoit.html.">isolation de toiture</a>, <a href="">rénovation
                             générale</a> et <a
                                 href="../decontamination/decontamination_vermiculite.html">décontamination de
                             vermiculite</a>. Nous avons pour mission
