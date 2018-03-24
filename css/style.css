@@ -256,6 +256,9 @@ body {
     .responsive-fontsizeCard{
         font-size: 2.5rem!important;
     }
+    .navbar{
+        font-size: 0.9rem!important;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -273,5 +276,8 @@ body {
     h1 {font-size:4rem!important;} /*1rem = 16px*/
     .responsive-fontsizeCard{
         font-size: 2.9rem!important;
+    }
+    .navbar{
+        font-size: 1.3rem!important;
     }
 }
