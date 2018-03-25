@@ -111,7 +111,9 @@ body {
 .black{
     color:black!important;
 }
-
+.bg-g{
+    background-color: #CCFFCC;
+}
 .inner-col-footer {
     padding: 10px;
 }
