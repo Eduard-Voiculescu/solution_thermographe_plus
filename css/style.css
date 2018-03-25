@@ -94,6 +94,22 @@ body {
     position: relative;
     top: 50px;
 }
+.jumbotron{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../images/AdobeStock_169782587_Preview.jpeg") center;
+    color:white;
+}
+
+
+.smcx-widget{
+    margin:auto !important;
+}
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-64 {font-size: 6rem;}
+
+
 .background1{
     padding: 1rem;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/AdobeStock_103168961.jpeg")  no-repeat fixed center center; ;
@@ -195,7 +211,7 @@ body {
 @media (max-width: 544px) {
     h1 {font-size:2.5rem;} /*1rem = 16px*/
     .solutionTitle{
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
     .btn-xlg{
         font-size: 1rem !important;
@@ -210,7 +226,7 @@ body {
 @media (min-width: 544px) {
     h1 {font-size:2.5rem;} /*1rem = 16px*/
     .solutionTitle{
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
     .responsive-fontsizeCard{
         font-size: 1.5rem!important;
