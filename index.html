@@ -16,12 +16,16 @@
 
     <!-- Bootstrap JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 
-    <!-- Costum CSS-->
+    <!-- Custom CSS-->
     <link rel="stylesheet" href="css/style.css">
 
     <link href="images/logostp.jpg" rel="icon" type="image/gif">
@@ -52,7 +56,7 @@
                 <br><br><br>
                 <div>
                     <a href="#navbar">
-                        <button type="button" class="btn btn-lg btn-xlg btn-success">Voulez-vous en profiter?</button>
+                        <button type="button" class="btn btn-lg btn-xlg btn-success" data-toggle="modal" data-target="#myModal">Voulez-vous en profiter?</button>
                     </a>
                 </div>
 
@@ -71,7 +75,7 @@
 
                 <div>
                     <a href="#navbar">
-                        <button type="button" class="btn btn-lg btn-xlg btn-success">Voulez-vous en profiter?</button>
+                        <button type="button" class="btn btn-lg btn-xlg btn-success" data-toggle="modal" data-target="#myModal">Voulez-vous en profiter?</button>
                     </a>
                 </div>
             </div>
@@ -88,7 +92,7 @@
                 <br><br><br>
                 <div>
                     <a href="#navbar">
-                        <button type="button" class="btn btn-lg btn-xlg btn-success">Voulez-vous en profiter?</button>
+                        <button type="button" class="btn btn-lg btn-xlg btn-success" data-toggle="modal" data-target="#myModal">Voulez-vous en profiter?</button>
                     </a>
                 </div>
             </div>
@@ -105,7 +109,7 @@
                 <br><br><br>
                 <div>
                     <a href="#navbar">
-                        <button type="button" class="btn btn-lg btn-xlg btn-success">Voulez-vous en profiter?</button>
+                        <button type="button" class="btn btn-lg btn-xlg btn-success" data-toggle="modal" data-target="#myModal">Voulez-vous en profiter?</button>
                     </a>
                 </div>
             </div>
@@ -122,7 +126,7 @@
                 <br><br><br>
                 <div>
                     <a href="#navbar">
-                        <button type="button" class="btn btn-lg btn-xlg btn-success">Voulez-vous en profiter?</button>
+                        <button type="button" class="btn btn-lg btn-xlg btn-success" data-toggle="modal" data-target="#myModal">Voulez-vous en profiter?</button>
                     </a>
                 </div>
             </div>
@@ -223,6 +227,164 @@
     </div>
 
 </nav>
+
+<div class="container">
+    <!-- <h2>Modal Example</h2>-->
+    <!-- Trigger the modal with a button -->
+    <!-- <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">VENEZ PROFITEZ DES <span style="color: green;">MEILLEURS PRIX</span> SUR LE MARCHÉ</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img src="https://scontent.fyhu1-1.fna.fbcdn.net/v/t45.1600-4/cp0/q90/c150.0.600.600/42171891_6102003631560_2624624613023285248_n.png.jpg?_nc_cat=110&efg=eyJxZV9ncm91cHMiOlsibm9fc2FmZV9pbWFnZV9mb3JfYWRzX2ltYWdlIl19&oh=d32e5fe84fbac18ad8876be77a0dd910&oe=5C63036B" height="150" width="150">
+                            </div>
+                            <div class="col-sm-7">
+                                <h3 style="color: #5a6268">POUR REFAIRE VOTRE TOITURE</h3>
+                                <p>À partir de <span class="prix">47.31$/mois.</span></p>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="contact.html">
+                                    <button type="button" class="btn btn-success">LEARN MORE</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img src="https://scontent.fyhu1-1.fna.fbcdn.net/v/t45.1600-4/cp0/q90/c100.0.600.600/p600x600/41965677_6102003283560_9206101165903708160_n.png.jpg?_nc_cat=102&efg=eyJxZV9ncm91cHMiOlsibm9fc2FmZV9pbWFnZV9mb3JfYWRzX2ltYWdlIl19&oh=73ca4de0afc499e055db7ba0db90fd88&oe=5C620DDE" height="150" width="150">
+                            </div>
+                            <div class="col-sm-7">
+                                <h3 style="color: #5a6268">POUR DÉCONTAMINER</h3>
+                                <p>À partir de <span class="prix">41.33$/mois.</span></p>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="contact.html">
+                                    <button type="button" class="btn btn-success">LEARN MORE</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img src="https://scontent.fyhu1-1.fna.fbcdn.net/v/t45.1600-4/cp0/q90/c306.0.600.600/41934215_6102003775960_4875017919408373760_n.png.jpg?_nc_cat=105&efg=eyJxZV9ncm91cHMiOlsibm9fc2FmZV9pbWFnZV9mb3JfYWRzX2ltYWdlIl19&oh=fb4944c88867df597dc391783878cbd4&oe=5C2E72D7" height="150" width="150">
+                            </div>
+                            <div class="col-sm-7">
+                                <h3 style="color: #5a6268">POUR GÉRER VOTRE HUMIDITÉ</h3>
+                                <p>À partir de <span class="prix">88.64$/mois.</span></p>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="contact.html">
+                                    <button type="button" class="btn btn-success">LEARN MORE</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img src="https://scontent.fyhu1-1.fna.fbcdn.net/v/t45.1600-4/cp0/q90/c151.0.600.600/41964850_6102003817160_8381912545417494528_n.png.jpg?_nc_cat=102&efg=eyJxZV9ncm91cHMiOlsibm9fc2FmZV9pbWFnZV9mb3JfYWRzX2ltYWdlIl19&oh=b1b4f125b00cf9ecf60fad6d624f97c4&oe=5C1B2429" height="150" width="150">
+                            </div>
+                            <div class="col-sm-7">
+                                <h3 style="color: #5a6268">POUR ISOLER VOTRE ENTRE-TOIT À R-51</h3>
+                                <p>À partir de <span class="prix">74.45$/mois.</span></p>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="contact.html">
+                                    <button type="button" class="btn btn-success">LEARN MORE</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img src="https://scontent.fyhu1-1.fna.fbcdn.net/v/t45.1600-4/cp0/q90/c100.0.600.600/p600x600/41950976_6102003292760_5009148090205077504_n.png.jpg?_nc_cat=103&efg=eyJxZV9ncm91cHMiOlsibm9fc2FmZV9pbWFnZV9mb3JfYWRzX2ltYWdlIl19&oh=3f570b76b30b684339263d21ab74ab95&oe=5C14B544" height="150" width="150">
+                            </div>
+                            <div class="col-sm-7">
+                                <h3 style="color: #5a6268">POUR LA DÉCONTAMINATION DE VERMICULITE-AMIANTE</h3>
+                                <p>À partir de <span class="prix">163.73$/mois.</span></p>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="contact.html">
+                                    <button type="button" class="btn btn-success">LEARN MORE</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img src="https://scontent.fyhu1-1.fna.fbcdn.net/v/t45.1600-4/cp0/q90/c2.0.600.600/41964322_6102004543960_7183266806092529664_n.png.jpg?_nc_cat=101&efg=eyJxZV9ncm91cHMiOlsibm9fc2FmZV9pbWFnZV9mb3JfYWRzX2ltYWdlIl19&oh=e2c37e9eb447e6451567baf575c78dc6&oe=5C269DE8" height="150" width="150">
+                            </div>
+                            <div class="col-sm-7">
+                                <h3 style="color: #5a6268">THERMOPOMPE CENTRALE KELVINATOR</h3>
+                                <p>À partir de <span class="prix">94.55$/mois.</span></p>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="contact.html">
+                                    <button type="button" class="btn btn-success">LEARN MORE</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img src="https://scontent.fyhu1-1.fna.fbcdn.net/v/t45.1600-4/cp0/q90/c276.0.600.600/41931683_6102004586960_700706743063150592_n.png.jpg?_nc_cat=101&efg=eyJxZV9ncm91cHMiOlsibm9fc2FmZV9pbWFnZV9mb3JfYWRzX2ltYWdlIl19&oh=bc02f5774f0812eec72ae16d8097f559&oe=5C618711" height="150" width="150">
+                            </div>
+                            <div class="col-sm-7">
+                                <h3 style="color: #5a6268">THERMOPOMPE MURALE</h3>
+                                <p>À partir de <span class="prix">41.35$/mois.</span></p>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="contact.html">
+                                    <button type="button" class="btn btn-success">LEARN MORE</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+s
+                <div class="modal-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4"></div>
+                            <div class="col-4 text-center">
+                                <a href="contact.html">
+                                    <button type="button" class="btn-lg btn-danger" >Contactez-nous</button>
+                                </a>
+
+                            </div>
+                            <div class="col-4"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
 
 <br>
 <div class="container-fluid ">
